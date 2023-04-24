@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Carlito', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-inline: 30px;
+}
+
+.navi,
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button button {
+    border-radius: 5px;
+    padding: 8px;
+    margin-inline: 3px;
+}
+
+.x, .y {
+    font-family: 'Carlito', sans-serif;
+    border: 1px solid black;
+}
+
+.x {
+    background-color: rgb(44, 44, 44);
+    border-color: white;
+    color: white;
+}
+
+.y {
+    background-color: #4C5FD5;
+    border-color: #4C5FD5;
+    color: white;
+}
+
+.x,
+.y{
+    transition-duration: 0.3s;
+}
+
+.x:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.y:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.search {
+    height: 40px;
+    margin-top: 20px;
+}
+
+.search button{
+    width: 40px;
+}
+
+h1,
+h3,
+h4,
+ul,
+p {
+    color: white;
+}
+
+p {
+    font-style: normal;
+}
+
+.one {
+    background-color: #dadbf1;
+}
+
+.two {
+    background-color: white;
+}
+
+header {
+    display: flex;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+button {
+    justify-self: end;
+}
+
+h1 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+
+.one {
+    padding: 100px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+}
+
+.two h3, p{
+    color: black;
+}
+
+.two a {
+    text-decoration: none;
+    color: #4C5FD5;
+}
+
+.imgt img {
+    max-height: 80px;
+}
+
+.container {
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+.thing {
+    max-width: 350px;
+    min-width: 350px;
+    display: flex;
+}
+
+.rowone,
+.rowtwo,
+.rowthree {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.imgt,
+.xyz {
+    margin: 10px;
+}
+
+.list_list p {
+    color:white;
+}
+
+footer {
+    padding: 50px;
+    margin-inline: 50px;
+}
+
+.list {
+    max-height: 300px;
+    min-height: 300px;
+}
+
+.list_list ul li {
+    list-style: none;
+}
+
+.list_list {
+    width: 19%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.list_list {
+    max-height: 280px;
+    min-height: 280px;
+}
+
+.cc {
+    padding-top: 150px;
+}
+
+.list_list p a {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    transition-duration: 0.3s;
+}
+
+header a:hover,
+footer a:hover {
+    font-weight: bold;
+    color: #4C5FD5;
+}
+
+.two a:hover {
+    font-weight: bold;
+}
